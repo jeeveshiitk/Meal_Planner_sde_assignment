@@ -1,0 +1,121 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+header {
+    background-color: #007aff;
+    color: white;
+    padding: 20px 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    opacity: 0.9;
+}
+
+main {
+    padding: 30px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#ingredients-input {
+    width: 100%;
+    min-height: 80px;
+    box-sizing: border-box; /* Important for padding */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+}
+
+#generate-btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #007aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#generate-btn:hover {
+    background-color: #005bb5;
+}
+
+#generate-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.output-area {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* Styles for the generated plan */
+.plan-day {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.plan-day h3 {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.plan-meal {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+.plan-meal:last-child {
+    border-bottom: none;
+}
+
+.plan-meal strong {
+    display: inline-block;
+    width: 90px;
+    color: #555;
+}
+
+.plan-meal .ingredients {
+    font-size: 0.85rem;
+    color: #777;
+    font-style: italic;
+}

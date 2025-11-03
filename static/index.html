@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meal Planner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Meal Planner Agent</h1>
+            <p>Enter your available ingredients, and the agent will plan your week.</p>
+        </header>
+        
+        <main>
+            <div class="input-area">
+                <textarea id="ingredients-input" placeholder="e.g., chicken, rice, broccoli, eggs, spinach, bread..."></textarea>
+                <button id="generate-btn">Generate Plan</button>
+            </div>
+            
+            <div class="output-area">
+                <h2>Your 7-Day Plan</h2>
+                <div id="plan-output">
+                    <p class="placeholder">Your plan will appear here...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
