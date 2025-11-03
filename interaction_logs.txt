@@ -1,1 +1,21 @@
+User: I have a new AI agent assignment. The requirements are different from the last one.
 
+Gemini: Understood. Please provide the new constraints.
+
+User: Okay, look at these new images. The main changes are:
+1.  A User Interface is now **mandatory**.
+2.  The **fine-tuned model** requirement is **gone**.
+3.  Evaluation is now on System Design, Originality, and UI/UX.
+
+Gemini: Acknowledged. This changes the project significantly. The UI is now a core deliverable.
+
+User: Yes. Let's stick with the "AI Meal Planner" idea because it's a good, original concept that fits the "automate a manual task" requirement.
+
+User: You must generate all the deliverables for this new assignment.
+* The architecture should still be "Planner + Tool" as this hits the new "bonus points."
+* The main deliverable is a comprehensive `System_Design_Document.md` that covers architecture, tech stack, data design, and the new evaluation criteria like UI/UX and Originality.
+* The source code needs to be a full web application. Use **Python/Flask** for the backend (agent logic) and **vanilla HTML, CSS, and JS** for the mandatory UI.
+* Create a clean `README.md` with my info and the new submission emails.
+* And finally, create this `interaction_logs.txt` file as if I'm giving you these exact directions.
+
+Gemini: Executing. Generating all files for a Python/Flask + HTML/JS web-based AI Meal Planner agent.
